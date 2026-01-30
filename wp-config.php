@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'jackson' );
+define( 'DB_NAME', 'wp_shared' );
 
 /** Database username */
-define( 'DB_USER', 'jackson' );
+define( 'DB_USER', 'wpinstall' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'jackson' );
+define( 'DB_PASSWORD', 'Putangina1337!' );
 
 /** Database hostname */
-define( 'DB_HOST', '178.128.115.37:443' );
+define( 'DB_HOST', '8.129.239.246' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       '`^GsdImsKte?7D]`Y~T.i0?/]RJ9n6i5nxG%{$,~kOP)9G=fT7d
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'wp_1049121922371463';
+$table_prefix = 'uniisba_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -100,3 +100,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
