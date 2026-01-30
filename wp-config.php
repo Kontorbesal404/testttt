@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       '`^GsdImsKte?7D]`Y~T.i0?/]RJ9n6i5nxG%{$,~kOP)9G=fT7d
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'uniisba_';
+$table_prefix = 'wp_1049121922371463';
 
 /**
  * For developers: WordPress debugging mode.
@@ -100,4 +100,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
 
